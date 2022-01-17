@@ -1,0 +1,24 @@
+Q1  : What is the definition of server port?
+ANS : In computer networking, a port is a communication endpoint. At the software level, 
+      within an operating system, a port is a logical construct that identifies a specific 
+      process or a type of network service. 
+
+Q2  : What is server port range?
+ANS : Port numbers range from 0 to 65535.
+
+Q3  : How many bits does number above represent?
+ANS : Using the above formula you’ll see that the smallest four-digit number, 1000, requires 10 bits, 
+      and the largest four-digit number, 9999, requires 14 bits. The number of bits varies between those 
+      extremes. For example, 1344 requires 11 bits, 2527 requires 12 bits, and 5019 requires 13 bits.
+
+Q4  : State 10 common server ports
+ANS : Ports 20 and 21: File Transfer Protocol (FTP)
+      Port 22: Secure Shell (SSH)
+      Port 25: Simple Mail Transfer Protocol (SMTP)
+      Port 53: Domain Name System (DNS)
+      Port 80: Hypertext Transfer Protocol (HTTP)
+      Port 123: Network Time Protocol (NTP)
+      Port 179: Border Gateway Protocol (BGP)
+      Port 443: HTTP Secure (HTTPS)
+      Port 500: Internet Security Association and Key Management Protocol (ISAKMP)
+      Port 3389: Remote Desktop Protocol (RDP).
