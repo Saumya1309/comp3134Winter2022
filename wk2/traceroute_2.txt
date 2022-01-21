@@ -1,0 +1,22 @@
+$ tracert 159.203.36.231
+
+Tracing route to 159.203.36.231 over a maximum of 30 hops
+
+  1     5 ms     3 ms     3 ms  mynetwork.home [192.168.2.1]
+  2     4 ms     5 ms     4 ms  10.11.2.25
+  3     *        *       *     Request timed out.
+  4     7 ms     6 ms    14 ms  tcore3-toronto21_34.net.bell.ca [64.230.59.190]
+  5     8 ms     6 ms     7 ms  tcore3-toronto21-bundle-ether38.net.bell.ca [142.124.127.148]
+  6     6 ms     6 ms     3 ms  dis2-toronto21_ae1-0.net.bell.ca [64.230.107.185]
+  7    12 ms     4 ms     7 ms  tcore4-toronto21_bundle-ether9.net.bell.ca [64.230.107.186]
+  8     6 ms     *        7 ms  tcore2-torontoxn_ae3.net.bell.ca [64.230.51.162]
+  9     5 ms     5 ms     5 ms  bx1-torontoxn_et4-0-0.net.bell.ca [64.230.97.159]
+ 10     8 ms     4 ms     5 ms  ix-ae-9-0.tcore2.tnk-toronto.as6453.net [63.243.172.25]
+ 11     6 ms     4 ms     5 ms  if-ae-2-2.tcore1.tnk-toronto.as6453.net [64.86.33.89]
+ 12     6 ms     3 ms     5 ms  63.243.172.34
+ 13     7 ms    11 ms    14 ms  138.197.249.91
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16    11 ms     6 ms     5 ms  159.203.36.231
+
+Trace complete.
